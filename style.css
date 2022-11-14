@@ -1,0 +1,156 @@
+body{
+    height: 1000px;
+    width: 100%;
+    background-image: url( https://i.pinimg.com/564x/b1/e9/96/b1e996d12edbce4a99557eca1c8a04c4.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+header{
+    background-image: url(jpg.jpg);
+    height: 150px;
+    width: 100%;
+    background-size:cover;
+}
+header h1{
+    color: rgba(245, 248, 250, 0.973);
+    padding: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+
+     
+}
+header img{
+    float: right;
+    margin: 30px;
+}
+
+
+#galeria{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    height: 100vh;
+    background: #40d4dc00;
+    float: center;
+
+}
+
+#galeria h1{
+    color: #f7f7f7;
+    font-family: 'Island Moments', cursive;
+    font-size: 60px;
+
+}
+#historia h1{
+    color: #f7f7f7;
+    font-family: 'Dancing Script', cursive;
+}
+#historia h3{
+    color:#f7f7f7;
+    font-family: 'Dancing Script', cursive;
+    text-align: left;
+    
+}
+#historia{
+    text-align: center;
+    margin: 8em;
+    background-image:url(  https://i.pinimg.com/originals/d0/ba/29/d0ba29d2154589ac0078f20b44998c89.gif);
+    padding: 60px;
+    background-size: cover;
+}
+#histori img{
+    background-size: cover;
+}
+
+
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display:flex;
+}
+
+.slides input{
+    display: none;
+
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width: 800px;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+    float: center;
+}
+
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+
+}
+.manual-btn{
+    border: 2px solid#121313;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    background-color: #12131380;
+}
+
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background: #d1c409;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+#radio5:checked ~ .first{
+    margin-left: -80%;
+}
+
+#vid{
+    background-color: #1213139a;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 50px;
+    text-align: center;
+
+}
+#vid h3{
+    color: rgba(245, 248, 250, 0.973);
+    padding: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+
+

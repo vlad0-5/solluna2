@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica de bootstrap</title>
+    <link rel="stylesheet" type="text/css"   href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"   href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond:ital@0;1&family=Island+Moments&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="Avatar Logo" style="width:80px;" class="rounded-pill">
+        <h1> LEY GRAVITACIONAL DE NEWTON</h1> 
+    <p class="text-start"></p>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            </a>
+      
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"> TEORIA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="hoobies.html">FORMULARIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">IMAGENES Y VIDEOS</a>
+                </li>
+                
+              </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="galeria" class="container">
+      <div class="slider">
+        <div class="slides">
+
+           <input type="radio" name="radio-btn" id="radio1">
+           <input type="radio" name="radio-btn" id="radio2">
+           <input type="radio" name="radio-btn" id="radio3">
+           <input type="radio" name="radio-btn" id="radio4">
+           <input type="radio" name="radio-btn" id="radio5">
+
+           <div class="slide first">
+            <img src="https://i.pinimg.com/564x/18/84/28/18842833035864f1dbbd7a23013a5bf4.jpg" alt="">
+           </div>
+           <div class="slide ">
+            <img src="  https://i.pinimg.com/originals/4c/70/8a/4c708a843f9b10f9d1f8d529dc4cd0db.jpg" alt="">
+           </div>
+           <div class="slide ">
+            <img src=" https://espaciociencia.com/wp-content/uploads/2012/09/ley-de-la-gravedad-fiormula.jpg" alt="">
+           </div>
+           <div class="slide ">
+            <img src=" https://www.fisicalinda.com/wp-content/uploads/2018/09/fuerza-gravitacional-tierra-luna-1.gif" alt="">
+           </div>
+           <div class="slide ">
+            <img src=" https://slideplayer.es/slide/12654067/76/images/8/Conclusi%C3%B3n.jpg" alt="">
+           </div>
+
+           <div class="navigation-auto">
+             <div class="auto-btn1"></div>
+             <div class="auto-btn2"></div>
+             <div class="auto-btn3"></div>
+             <div class="auto-btn4"></div>
+             <div class="auto-btn5"></div>
+           </div>
+
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+          <label for="radio5" class="manual-btn"></label>
+        </div>
+      </div>
+    </section>
+    <div id="vid">
+      <h3>Como ya conoces, el peso es una fuerza producto de la gravedad del planeta.
+
+        Por esa razón podemos hacer una demostración y obtener una nueva fórmula de gravedad, relacionando estas dos fórmulas:
+      <br>p=m.g   y  F = Gm1m2/r2</h3><br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qcX1TspJI_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <h3>Pero no podemos terminar este tema sin ampliar un poco los conceptos.
+
+        En primer lugar, de un análisis detallado del cuadro de datos del sistema solar, se observa que el Sol también tiene periodo de rotación y radio, ya que el sol orbita al eje galactico, el movimiento real del sol es algo así como esta animación:</h3>  
+        <iframe width="560" height="315" src="https://www.fisicalinda.com/wp-content/uploads/2020/08/Sol-arrastrando-planetas.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <script type="text/javascript" href="js/bootstrap.min.js"  ></script>
+    
+</body>
+</html>

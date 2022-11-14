@@ -1,0 +1,113 @@
+body{
+    height: 1000px;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/b3/d4/3f/b3d43fb02909fc4e3328def5ff1e3767.jpg);
+    background-position: top center;
+}
+
+header{
+    background-image: url(jpg.jpg);
+    height: 150px;
+    width: 100%;
+    background-size:cover;
+}
+header h1{
+    color: rgba(245, 248, 250, 0.973);
+    padding: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+
+   
+}
+header img{
+    float: right;
+    margin: 30px;
+}
+
+
+
+form{
+    background: rgba(48, 46, 46, 0.233);
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    padding:  30px 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+form label{
+    color: aquamarine;
+    font-weight: bold;
+}
+form h1{
+    color: rgba(245, 248, 250, 0.973);
+    font-family: 'Island Moments', cursive;
+     
+}
+
+#hobies h1{
+    color:rgba(245, 248, 250, 0.973) ;
+    font-family: 'Island Moments', cursive;
+    font-size: 70px;
+
+}
+#hobies h2{
+    color: white;
+    font-family: 'EB Garamond', serif;
+}
+#hobies{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-image:url( https://i.pinimg.com/originals/d0/ba/29/d0ba29d2154589ac0078f20b44998c89.gif);
+    background-position: top center;
+    padding: 50px;
+}
+#hobies h4{
+    color: white;
+
+}
+
+#ejer{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-image:url( https://i.pinimg.com/originals/d0/ba/29/d0ba29d2154589ac0078f20b44998c89.gif);
+    background-position: top center;
+    padding: 15px;
+    text-align: center;
+    color: #1f1918;
+    font-size: 24px;
+}
+#ejer h1{
+    color:rgba(245, 248, 250, 0.973) ;
+    font-family : 'Dancing Script', cursive;
+    text-align: center;
+    padding: 30px;
+
+}
+#ejer h2{
+    color:rgba(245, 248, 250, 0.973) ;
+    font-family : 'Dancing Script', cursive;
+    
+
+}
+.boton {
+    background-color: #d0ddd1; /* Green */
+    border: solid;
+    color: rgb(12, 6, 6);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .boton:hover{
+    padding-right: 25px;
+    background-color: #b6df21; /* Green */
+  
+  }
+  #resultado{
+    color: white;
+  }
